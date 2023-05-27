@@ -1,0 +1,65 @@
+.admins {
+  .content {
+    min-height: 0 !important;
+    height: 100%;
+
+    .box-body {
+      height: calc(100% - 50px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .inputSearch {
+        width: 100% !important;
+      }
+
+      .slecteSearch {
+        display: none !important;
+      }
+
+      .el-button {
+        font-size: 20px;
+      }
+    }
+
+    .box-tools {
+      top: 0;
+    }
+
+    .d-flex {
+      display: flex;
+      justify-content: space-between;
+
+      .box-warning {
+        width: 85%;
+      }
+
+      .box-success {
+        text-align: center;
+        width: 14%;
+      }
+    }
+
+    .el-table {
+      .cell {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+    }
+  }
+
+  .form-admins {
+    height: 100%;
+  }
+
+  .demo-drawer__content {
+    padding: 0 30px 30px;
+
+    .mb-3 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+

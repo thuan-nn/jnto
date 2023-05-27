@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+
+use App\Supports\Traits\HasUuid;
+use App\Supports\Traits\OverridesBuilder;
+use App\Supports\Traits\UserStamps;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class BaseModel extends Model
+{
+    use HasUuid, OverridesBuilder, UserStamps, HasFactory;
+}
